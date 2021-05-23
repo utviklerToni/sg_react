@@ -13,7 +13,6 @@ class ImageCard extends React.Component {
 
 	setSpans = () => {
 		console.log(this.imageRefs.current.clientHeight);
-		console.log('hello');
 	};
 
 	render() {
