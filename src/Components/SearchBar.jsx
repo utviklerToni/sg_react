@@ -19,6 +19,10 @@ class SearchBar extends Component {
 	render() {
 		return (
 			<Fragment>
+				<div>
+					<h1>Simple quick search with unsplash API</h1>
+					<h3>Type any keywords to display upto 10 images</h3>
+				</div>
 				<div className='ui segment'>
 					<form action='ui form' onSubmit={this.onFormSubmit}>
 						<div className='field'>
